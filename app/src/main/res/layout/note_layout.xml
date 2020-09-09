@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<androidx.cardview.widget.CardView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="4dp">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="8dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_view_title" android:layout_marginBottom="10dp" tools:text="My First Note" android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_view_note" tools:text="Note Description" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:layout_below="@id/text_view_title"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
